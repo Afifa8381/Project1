@@ -1,0 +1,50 @@
+
+  main{
+    background: #F0DAC0;
+    grid-area: main;
+    border: 1px solid gray;
+    padding: 2px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #3a1e11;
+    }
+    
+    main img{
+  
+      width:95px;
+      height:95px; 
+      float: right ;
+       padding: 4px;
+    }
+    
+    #con{
+       
+       background: #F6A970;
+       grid-area: con;
+       padding: 8px;
+       border:7px solid gray;
+       text-align: left;
+       justify-self: start;
+       position: relative;
+    
+    }
+    .grid-nested{
+      display:flex ;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      grid-gap: 60px;
+      height: 80%;
+    }
+    
+    .grid-nested img{
+  
+      width:200px;
+       height:205px; 
+      margin: 30px;
+      
+    }
+
+    
+    

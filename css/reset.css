@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+      background:white;
+  }
+
+  .container{
+    display:grid;
+    height: 100vh;
+
+    grid-template-columns: 1fr 1fr 1.3fr 1fr ;
+    grid-template-rows: 0.5fr 1.5fr 8.2fr 0.5fr  ;
+    grid-template-areas: 
+    "nav nav nav nav "
+    "main main main main "
+    " con con con con" 
+    "footer footer footer footer" ;
+    
+    grid-gap: 12px; 
+    margin: 0 auto;
+    padding: 4px;
+    width: 90%;
+
+
+}

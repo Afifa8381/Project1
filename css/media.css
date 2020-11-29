@@ -1,0 +1,52 @@
+
+/*phon*/
+
+@media (min-width: 320px) {
+   
+    ul{
+        background-color: rgb(255, 123, 0);
+    }
+    main{
+        color: brown;
+    }
+    .grid-nested{
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        
+      
+}
+
+
+/*Tap*/
+
+@media screen and (min-width: 768px) {
+    
+
+    }
+    ul{
+        background-color: rgb(211, 94, 64);
+    }
+    main{
+        color: brown;
+    }
+    .grid-nested{
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        
+      
+}
+
+/*Disktop*/
+@media screen and (min-width: 1025px){
+    ul{
+        background-color: #ffe1d3;
+    }
+    main{
+        color: brown;
+    }
+    .grid-nested{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        
+      
+}
